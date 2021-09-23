@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+.nav{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    transition: 0.8s;
+}
+
+.nav:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.nav .logo{
+    color: rgb(148, 148, 148);
+    font-size: 25px;
+}
+
+.nav .logo span{
+    color: rgb(104, 5, 5);
+}
+
+.nav .nbar ul li{
+    margin: 20px;
+    display: inline-block;
+}
+
+.nav .nbar ul li a{
+    color: rgb(189, 189, 189);
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+.nav .nbar ul li a:hover{
+    color: white;
+}
+
+.nav i{
+    color: rgb(189, 189, 189);
+    font-size: 45px;
+    transition: 0.5s;
+}
+
+.nav i:hover{
+    color: white;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.title span{
+    color: rgb(187, 13, 13);
+}
+
+.formu{
+    position: relative;
+    width: 100%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.field{
+    height: 44px;
+    margin-bottom: 17px;
+}
+
+.field input{
+    height: 44px;
+    width: 400px;
+    font-size: 17px;
+    padding: 0 10px;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+}
+
+.field button{
+    padding: 9px 29px;
+    border-radius: 5px;
+    border:  1px solid #ccc;
+    transition: 0.5s;
+}
+
+.field button:hover{
+    color: white;
+    background-color: rgb(92, 91, 91);
+}
+
+.not{
+    color: white;
+}
+
+.not a{
+    color: rgb(141, 5, 5);
+    
+}
